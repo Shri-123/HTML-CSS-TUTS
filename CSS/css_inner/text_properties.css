@@ -1,0 +1,13 @@
+h1{
+    font-size: 46px;
+    text-decoration: underline      solid red;
+}/* }                overline       dotted */
+                    /*line-through   wavy */
+p{
+    font-size: 20px;  /*normal 16px*/
+    line-height: 30px;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    font-weight: bold;
+
+}

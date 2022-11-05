@@ -1,0 +1,30 @@
+input[type="text"]{
+    color: red;
+    background-color: yellowgreen;
+}
+
+input[type='password']{
+    background-color: pink;
+}
+
+/* a[href = 'https://google.co.in']{
+    color:green;
+} */
+
+/* a[href *= 'google']{     # href tag me jisme bhi "google" hai uska colour change hoga 
+    color:green;
+}
+
+a[href ^= 'https']{         #sabhi href jo https se start hoge unke liye
+    color: greenyellow;
+} */
+
+a[href $=".com"]{
+    color: hotpink;
+}
+
+label[for = "first-name"]{
+    color: rgb(114, 4, 4);
+}
+
+/* iske bad specificity ka video dekho ----> 44 and 45 */

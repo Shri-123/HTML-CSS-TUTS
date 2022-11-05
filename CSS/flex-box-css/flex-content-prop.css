@@ -1,0 +1,191 @@
+/* 1.Align-self */
+/* 2.order */
+/* 3.flex-basis
+4.flex-grow */
+
+
+/* .box-wrapper{
+    border: 3px solid black;
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-wrap: wrap; 
+              
+}
+.box{
+    border: 2px solid rgb(221, 114, 221);
+    width: 400px;
+}
+
+.box1{
+    background: lightblue;
+}
+.box2{
+    background: lightcoral;
+    align-self: flex-end;
+                /* flex-end,strech */
+/*}
+.box3{
+    background: lightcyan;
+}
+.box4{
+    background: lightgreen;
+}
+.box5{
+    background: lightpink;
+} */
+
+
+/* ------------------------------- order ------------------ */
+
+/* .box-wrapper{
+    border: 3px solid black;
+    display: flex;
+    height: 400px;
+   align-items: center;
+   justify-content: space-between;
+              
+}
+.box{
+    border: 2px solid rgb(221, 114, 221);
+    width: 500px;
+}
+
+.box1{
+    background: lightblue;
+    order: 3;
+}
+.box2{
+    background: lightcoral;
+    order: 1;
+}
+.box3{
+    background: lightcyan;
+    
+}
+.box4{
+    background: lightgreen;
+}
+.box5{
+    background: lightpink;
+} */
+
+
+/* ########### flex-basis ########################### */
+
+/*.box-wrapper{
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    
+              
+}
+.box{
+    border: 2px solid rgb(221, 114, 221);
+    flex-basis: 500px;*/   /*this is dominant*/
+    /* height: 800px;
+    
+}
+
+.box1{
+    background: lightblue;
+}
+.box2{
+    background: lightcoral;
+}
+.box3{
+    background: lightcyan;
+}
+.box4{
+    background: lightgreen;
+}
+.box5{
+    background: lightpink;
+} */
+
+
+/* #################### flex-grow #################################### */
+
+/* .box-wrapper{
+    border: 3px solid black;
+    display: flex;
+    width: 1200px;
+    
+              
+}
+.box{
+    flex-basis: 300px;
+    text-align: center; */
+    /* flex-grow: 1; */
+    
+/* }
+
+.box1{
+    background: lightblue;    
+    flex-grow: 2;
+
+
+}
+.box2{
+    background: lightcoral;
+    flex-grow: 1;
+
+}
+.box3{
+    background: lightcyan;
+    flex-grow: 1;
+
+}
+.box4{
+    background: lightgreen;
+}
+.box5{
+    background: lightpink;
+} */
+
+
+/* ######################### flex-shrink ###################### */
+
+.box-wrapper{
+    border: 3px solid black;
+    display: flex;
+    max-width: 1200px;
+   
+}
+.box{
+    border: 2px solid rgb(221, 114, 221);
+    /* flex-basis: 600px; */
+    /* flex-shrink: 1; */
+}
+
+.box1{
+    background: lightblue;
+    /* flex: flex-grow flex-shrink flex-basis; */
+    flex: 1 2 400px;
+    /* flex-shrink: 1; */
+
+}
+.box2{
+    background: lightcoral;
+    /* flex-shrink: 2; */
+    flex: 1 2 500px;
+
+}
+.box3{
+    background: lightcyan;
+    flex: 1 2 600px;
+
+    /* flex-shrink: 3; */
+
+}
+.box4{
+    background: lightgreen;
+}
+.box5{
+    background: lightpink;
+}
+
+
+
+

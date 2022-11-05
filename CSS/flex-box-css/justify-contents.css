@@ -1,0 +1,34 @@
+/* flex-direction,flex-wrap,justify-contents,align-items all are flex-container properties */
+
+.box-wrapper{
+    border: 3px solid black;
+    display: flex;  
+    height: 700px;           
+    /* justify-content: space-between; */
+                 /*space-between,space-around,space-evenly,flex-end,flex-start,centre*/
+    
+    align-items: flex-end;
+                    /* flex-start,centre */
+}
+
+.box{
+    border: 2px solid rgb(221, 114, 221);
+    
+}
+
+.box1{
+    background: lightblue;
+}
+.box2{
+    background: lightcoral;
+}
+.box3{
+    background: lightcyan;
+}
+.box4{
+    background: lightgreen;
+}
+.box5{
+    background: lightpink;
+}
+

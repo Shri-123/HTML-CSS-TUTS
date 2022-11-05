@@ -1,0 +1,65 @@
+
+/* body :not(p){
+    color: blue;
+} */
+
+/* body :not(.fancy){
+    background-color: #ddd;
+} */
+/* 
+div:empty{
+    background: #222;
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+} */
+
+/* body{
+    background-color: salmon;
+    color: purple;
+} */
+
+/* :root /* or html */
+    /*{ background: #333; */
+    /* color: #eee;  */
+/* } */
+
+
+/* -------------------pseudo-elements----------------------------------------------------  */
+
+/* p::first-letter{
+    font-size: 32px;
+} */
+
+/* p::first-line{
+    font-size: 20px;
+} */
+
+/* p::selection{
+    background:black ;
+    color: white;
+} */
+
+ /* :selection{                           select the text and see the results                                 
+    background:black ;
+    color: white;
+} */
+
+/* -----------------------::before,::after---------------------------------- */
+
+.cool::before{
+    display: block;
+    content: 'hello ';
+    color: violet;
+    border: 1px dotted black;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 50px;
+}
+
+.cool::after{
+    content: 'Nice ';
+    color: yellow;
+}
+
+/* Not works on img,br,input tags*/

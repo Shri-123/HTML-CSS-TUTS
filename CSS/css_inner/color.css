@@ -1,0 +1,11 @@
+h1{
+    /* color: rgb(190, 74, 161); */
+    color: #f0dc2e;
+    background-color: #ff0000;
+    /* #cdcdcd gives faint grey colour and #676767 gives some dark grey colour */
+}
+p{
+    color: aqua;
+    
+}
+/* search colour picker on google and copy the hex code  */

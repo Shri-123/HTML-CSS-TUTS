@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+body{
+    /* font-family: sans-serif; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+}
+/* search google fonts and select any font paste the first link in index.html and 
+next line in .css file   */

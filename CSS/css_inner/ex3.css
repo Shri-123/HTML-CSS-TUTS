@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+div ul{
+    background-color: rgb(202, 196, 196); 
+    text-align: center;
+    
+    
+          
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+li{
+    margin: 15px;
+    display: inline-block;
+    border-bottom: 2px solid black;
+
+    
+}
+h3{
+    border-bottom: 2px solid black;
+}
+.adjust-page{
+    width: 1200px;
+    margin: 0px auto;
+}
+
+section#home{
+    margin-top: 50px;
+}
+
+/* video solution 54 */

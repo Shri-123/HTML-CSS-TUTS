@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <h1>Simple Form</h1>
+    <form action="./pages/thank_you.html" method="GET"> <!--action is used to move to next pages after submitting-->
+        <!--also here "GET" method is used for adding the data in the URL
+                      "POST" method doesn't add data in URL  -->
+        <label for="username">Username : </label>  <!---->
+        <input type="text" id="username" name="username"> <!--type defines the type of input e.g: email,password,text-->
+         <!--id is used to identify the tag uniquely-->
+         <br> <br>
+
+        <label for="password">Password : </label>
+        <input type="password" name="" id="password" name="password"><br><br>
+
+        <label for="email">Email : </label>
+        <input type="email" name="" id="email" name="email"><br><br>
+
+        <input type="submit" value="sign in">
+        
+
+    </form>                     
+</body>
+</html>

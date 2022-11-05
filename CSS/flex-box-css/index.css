@@ -1,0 +1,45 @@
+.box-wrapper{
+    border: 3px solid black;
+    display: flex;
+    height: 500px;
+    /* flex-direction: row;              */
+    flex-direction:column;             
+                                                /* row,row-reverse,coloumn,coloumn-reverse*/
+     /* flex-direction: column-reverse;   */ 
+     /* flex-direction: row-reverse;          */
+     flex-wrap: wrap;
+     /* flex-wrap: wrap-reverse; */
+
+}
+
+.box{
+    border: 2px solid darkmagenta;
+    /* width: 500px; */
+}
+
+.box1{
+    background: lightblue;
+}
+.box2{
+    background: lightcoral;
+}
+.box3{
+    background: lightcyan;
+}
+.box4{
+    background: lightgreen;
+}
+.box5{
+    background: lightpink;
+}
+
+
+
+
+
+
+
+
+
+
+

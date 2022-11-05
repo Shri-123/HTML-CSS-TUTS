@@ -1,0 +1,15 @@
+body{
+    font-family: sans-serif;
+}
+#main-heading{
+    background-color: aqua;
+}
+.content{
+    font-style: italic;
+    font-family: cursive;
+    font-size: 12;
+   background-color: black;
+}
+.text-colour{
+    color: yellow;
+}

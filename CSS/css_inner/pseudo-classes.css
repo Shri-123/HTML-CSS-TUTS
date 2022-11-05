@@ -1,0 +1,71 @@
+a{
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+/* link,visited,hover,active */
+
+a:link{
+    color: hotpink;
+}
+
+a:visited{
+    color: indigo;
+}
+
+a:hover{
+    color: green;
+}
+
+a:active{
+color: black;
+}
+/* ---------------------- for form ------------------------------------------------------- */
+input:focus{ 
+    padding: 4px;
+    outline: none;
+    color: red;
+    border: 2px solid yellow;
+ }
+
+input:required{
+    color:blue;
+   
+}
+
+/* ----------------------- for below headers upto div -------------------------------- */
+/* 
+p:first-child{
+    color: red;
+} */
+
+/* p:first-of-type{
+    color: purple;
+} */
+
+p:last-child{                            /*start from child*/
+                              
+    color: green;
+}
+
+/* p:last-of-type{                         /*start from parent*/
+     /* color: hotpink; */
+ /* }  */
+
+ /* ----------------- :nth-child(),:nth-of-type()-------------------------------------- */
+
+/* p:nth-child(2){
+    color: brown;
+} */
+
+p:nth-child(2n){                    /*2,4,6,8,10,12----*/
+    color:green;
+}
+
+p:nth-of-type(2){
+    color: greenyellow;
+}
+
+
+
+
